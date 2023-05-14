@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'robot';
+	src: url(./fonts/Roboto-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'robot';
+}
+
+body{
+    background: rgb(0, 176, 182);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+h3{
+    text-align: center;
+}
+
+.title{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(197, 0, 0);
+}
