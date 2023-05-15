@@ -29,3 +29,27 @@ h3{
     border-radius: 10px;
     background: rgb(197, 0, 0);
 }
+
+.contact{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    padding: 10px;
+    margin: 5px auto;
+    background: rgb(197, 0, 0);
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    width: 50%;
+}
