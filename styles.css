@@ -1,7 +1,11 @@
+/*********************************************** POLICES ********************************************/
+
 @font-face {
 	font-family: 'robot';
 	src: url(./assets/fonts/Roboto-Regular.ttf);
 }
+
+/*************************************************  *  **********************************************/
 
 *{
     padding: 0;
@@ -16,6 +20,8 @@
 body{
     background: url(./assets/img/bg.jpg) center/cover;
 }
+
+/************************************************ EN TETE *******************************************/
 
 h1{
     text-transform: uppercase;
@@ -43,12 +49,16 @@ h1:hover {
     border-bottom: 3px solid black;
 }
 
+/****************************************************** MAIN ******************************************/
+
 main{
     padding-top: 100px;
     min-height: 100vh;
     margin: 0;
     background-color: rgba(202, 202, 202, 0.753);
 }
+
+/*****************************************************CONTACT***********************************/
 
 .contact{
     background-color: rgba(0, 0, 0, 0.555);
@@ -59,14 +69,14 @@ main{
     border-radius: 20px;
 }
 
-h2 {
+.contact h2 {
     color: white;
     display: flex;
     padding: 10px;
     justify-content: center;
 }
 
-a {
+.contact a {
     display: flex;
     padding: 10px;
     margin: 5px auto;
@@ -77,7 +87,7 @@ a {
 }
 
 
-a:hover {
+.contact a:hover {
     background: rgb(119, 0, 0);
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -87,9 +97,11 @@ p{
     margin: 20px;
 }
 
+/******************************************* DEBUG ***************************************************/
+
 @media screen and (max-width: 669px){
     .contact{
-        margin-top: 140px;
+        margin-top: 40px;
     }
 }
 
